@@ -277,7 +277,7 @@
                         <a href="#Experience" class="nav-links">Experience</a>
                     </li>
                     <li>
-                        <a href="https://github.com/rajibul007/portfolio/raw/main/Profile-2.pdf" class="nav-links" style="background-color: rgb(166,225,250,0.5);"><i class="fa fa-download"></i>&nbsp;&nbsp;Resume</a>
+                        <a href="https://github.com/rajibul007/portfolio/raw/main/profile.pdf" class="nav-links" style="background-color: rgb(166,225,250,0.5);"><i class="fa fa-download"></i>&nbsp;&nbsp;Resume</a>
                     </li>
                 </ul>
             </nav>
@@ -425,46 +425,57 @@
         </div>
     </div>
     <br>
-    <!--
-This is a multi-line comment in HTML.
-You can add as many lines as needed.
-
+   
     <div id="Projects" style="text-align:center; float:left; padding-top:75px; width:100%; min-width:600px;">
         <h1 style="font-size:2.3em; text-align: center;">Projects</h1><br>
         <h1 style="font-size:1.1em; text-align: center; font-weight:400; margin-top:-10px; margin-bottom:10px">Click on a project for more information</h1><br>
 
         <div style="display: inline-block;  max-width:1600px; padding-left:50px; padding-right:50px;">
-            <div id="490A" style="z-index: 0;text-align:left; display: inline-block;position:relative; width:515px; height: 215px; margin-left:8px; margin-right:8px; background-color:rgb(166,225,250);padding:20px;  margin-bottom: 20px; padding: 30px; cursor: pointer;"
+            <div id="490A" style="z-index: 0;text-align:left; display: inline-block;position:relative; width:80%; height: 215px; margin-left:8px; margin-right:8px; background-color:rgb(166,225,250);padding:20px;  margin-bottom: 20px; padding: 30px; cursor: pointer;"
                 onmouseover="shadow('490A')" onmouseout="unshadow('490A')" onclick="modal('490AModal')">
                 <img src="icons8-repository-96.png" width="31px" style="float:left;padding:5px;">
-                <p style="float:left;font-size:1.4em;margin-left:4px;color:#001C55;font-weight:600">CS490A Project</p><br>
-                <p style="float:left;margin-top: 10px; font-size:1.0em;color:#001C55;font-weight:400">Final project to perform sentiment analysis of financial tweets to predict change in stock price.</p><br>
-                <p style="float:left;margin-top: 10px; font-size:1.0em;color:#808080;font-weight:400">Updated on Dec 2020</p><br>
+                <p style="float:left;font-size:1.4em;margin-left:4px;color:#001C55;font-weight:600">Cisco CX-Collector </p><br>
+                <p style="float:left;margin-top: 10px; font-size:1.0em;color:#001C55;font-weight:400"> Cisco's (CX) Cloud Agent is a highly-scalable platform that collects telemetry data from customer network devices to deliver actionable insights for customers.</p><br>
+                <p style="float:left;margin-top: 10px; font-size:1.0em;color:#808080;font-weight:400">Updated on Nov 2020</p><br>
                 <div style="float:right;position:absolute;bottom:10px;right:17px">
                     <div class="tooltip"><img src="https://img.icons8.com/color/48/000000/python.png" width="35px" /><span class="tooltiptext">Python</span></div>
                 </div>
             </div>
+        </div>
+
+        <!--
+    This is a multiline comment in HTML.
+    It spans multiple lines and can be used
+    to provide explanations or notes within
+    your HTML code.
+
 
             <div id="490AModal" class="modal">
                 <div class="modal-content" style="height:535px; text-align:center; width:950px">
                     <span class="close" id="490AModalClose">&times;</span>
-                    <p style="font-size:1.4em;color:#001C55;font-weight:600">CS490A Project</p>
+                    <p style="font-size:1.4em;color:#001C55;font-weight:600"> Cloud Agent</p>
                     <div style="margin-bottom:30px;float:left; width:50%; text-align: center; padding:10px; margin-top: 80px; background-color:#CCF0FF;">
-                        <img src="Images/490A.png" width="400px" style="margin-top:20px;border-radius:0px; border-style:solid; border-color:#001C55;">
-                        <p style="margin-top: 10px; font-size:0.9em;color:#001C55;font-weight:400; text-align: center; margin-bottom:20px;">Candlestick chart of AAPL stock.</p>
+                        <img src="218316-cx-cloud-agent-overview-v2-2-00.avif" width="400px" style="margin-top:20px;border-radius:0px; border-style:solid; border-color:#001C55;">
+                        <p style="margin-top: 10px; font-size:0.9em;color:#001C55;font-weight:400; text-align: center; margin-bottom:20px;">CX Cloud Architecture</p>
                     </div>
                     <div style="float:right; width:50%; text-align:left; padding:10px; margin-top:45px; padding-left:20px">
                         <p style="float:left;margin-top: 10px; font-size:0.9em;color:#001C55;font-weight:400; text-align: left">
-                            Final project for Natural Language Processing class where I worked on a team of 3 to predict daily changes in stock prices using sentiment-labeled Twitter data from the corresponding time period. <br><br> We scraped 26,321 tweets,
-                            each of which referenced one of 6 different companies (AAPL, AMD, ARW, CHGG, UIS, XBIT), and performed sentiment analysis on them using VADER. We then fed the VADER sentiment scores, along with other tweet metadata such as number
-                            of comments, number of retweets, and number of likes, into various machine learning models that attempted to (1) classify the direction of stock price change (up or down) and (2) predict the amount of change. Overall, we found
-                            no statistically significant indication that our model was successful at predicting either metric, but have identified many important bottlenecks to tackle in future research.
+                            Final project for Cisco CX-Cloud-Agent  where I worked on a team of 7 to collects telemetry data from customer network devices to deliver actionable insights for customer <br><br> Developed Python app for to run command on host from POD(Rest-api , flask , JWT , sqllite ,sqlalchemy) 
+                            Micro service upgradation with nested helm chart and rollback features implementation 
+                            Ubuntu OS Screen implementation to take input from user using LINUX GUI Programming 
+                            Upgrade Patch creation, CI-CD continuous testing and manage repository(dev,stage,prod) .
+                            Replace Kubeadm to k3s , Etcd to sqllite and docker to containerd for better performance
+                            Deploy multiple micro service successfully on Next Generation light-weight product
+                            Implementation to After successful deployment, new screen to show OTP using LINUX GUI PROGRAMMING
+                            Light-weight Traefik implementation and tested with hardening using host network to use Proxy
+                            IP reassignment in Kubeadm for dhcp support ,secure k8s env using IPTABLES 
+                            k8s hardening playbook -implement multiple plugin , admission controller ,authorization policy 
                             <br><br>
                         </p>
                         <div style="text-align:center">
-                            <button id="yshneydermanGithub" style="background-color:#CCF0FF; border:none; width:180px; color:#001C55; padding:10px; cursor: pointer;" onmouseover="shadow('yshneydermanGithub')" onmouseout="unshadow('yshneydermanGithub')" onclick=" window.open('https://github.com/jamesqo/stock-market-prediction','_blank')">
+                            <button id="rajibulGithub" style="background-color:#CCF0FF; border:none; width:180px; color:#001C55; padding:10px; cursor: pointer;" onmouseover="shadow('rajibulGithub')" onmouseout="unshadow('rajibulGithub')" onclick=" window.open('https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/cx-cloud-agent/218316-cx-cloud-agent-overview-v2-2.html','_blank')">
                     <i class="fa fa-fw fa-github" style="color:#001C55"></i>
-                GitHub Repository
+                Project URL
                 </button>
                         </div>
                     </div>
@@ -658,7 +669,7 @@ You can add as many lines as needed.
                 </div>
                 <div id="Cisco" style="max-width:1400px; z-index: 0; text-align:left; display: inline-block;position:relative; width:90%; margin-left:8px; margin-right:8px; margin-bottom: 30px; background-color:rgb(166,225,250);padding: 30px;">
                     <img src="https://logowik.com/content/uploads/images/cisco-systems9760.jpg" width="55px" style="float:left" />
-                    <p style="width:70%; float:left;font-size:1.4em;color:#001C55;font-weight:600; padding-top:4px; margin-left:12px">Software Engineer|Python, Golang ,AWS Serverless,IaC,datalake</p><br>
+                    <p style="width:70%; float:left;font-size:1.4em;color:#001C55;font-weight:600; padding-top:4px; margin-left:12px">Software Engineer|Python, Golang, AWS Serverless, IaC, Datalake</p><br>
                     <p style="width:90%;float:left;margin-top: 15px; margin-left: 15px;font-size:1.0em;color:#001C55;font-weight:600;">Cisco</p><br>
                     <p style="width:90%;float:left;margin-top: 10px; font-size:1.0em;color:#001C55;font-weight:600">Nov 2019 - May 2023 • 3 year 7 mos </p><br>
                     <p style="min-width: 460px; width:90%;float:left;margin-top: 10px; font-size:1.0em;color:#001C55;font-weight:100">
